@@ -4,6 +4,12 @@ public class Ingrediente {
 	private String nombre;
 	private String medida;
 	
+	
+	/**
+	 * Constructor de la clase Ingrediente solo es posible crearla con todos los parametros deseados
+	 * @param nombre
+	 * @param medida
+	 */
 	public Ingrediente(String nombre, String medida) {
 		super();
 		if (nombre.isEmpty()||medida.isEmpty()) {

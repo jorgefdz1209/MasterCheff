@@ -9,6 +9,15 @@ public class Receta {
 	private List<Ingrediente> ingredientes;
 	private List<String> procedimiento;
 	
+	
+	/**
+	 * Constructor de la clase Receta con todos los atributos incluidos en la misma solo 
+	 * se tiene este para evitar la creacion de recetas sin los parametros deseados  
+	 * @param nombre
+	 * @param autor
+	 * @param ingredientes
+	 * @param procedimiento
+	 */
 	public Receta(String nombre, String autor, List<Ingrediente> ingredientes, List<String> procedimiento) {
 		super();
 		if(nombre.isEmpty()||autor.isEmpty()) {
